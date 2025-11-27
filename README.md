@@ -80,11 +80,7 @@ curl -X POST https://api.legacyrevival.ai/analyze \
 └── docker/           # Docker configs
 ```
 
-## Contributing
 
-We're building in public! Follow our progress:
-- Twitter: [@legacyrevivalai](https://twitter.com/legacyrevivalai)
-- Discord: [Join our community](https://discord.gg/legacyrevival)
 
 ## License
 
