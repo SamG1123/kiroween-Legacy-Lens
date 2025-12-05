@@ -1,0 +1,7 @@
+{
+  "name": "Explain Complex Code",
+  "description": "Get a clear explanation of complex or confusing code",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Explain the currently selected code (or entire file if nothing selected). Provide a high-level overview of what the code does, break down complex logic step-by-step, explain any algorithms used, design patterns, tricky logic, and performance considerations. Identify potential issues or improvements. Use simple language - explain like I'm a junior developer. Add inline comments to clarify confusing parts."
+}

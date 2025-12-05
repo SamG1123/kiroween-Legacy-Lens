@@ -1,0 +1,7 @@
+{
+  "name": "Refactor Code Smell",
+  "description": "Analyze and refactor code smells in the current file",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Analyze the currently open file for code smells and suggest refactorings. Identify: long functions (>50 lines), high complexity (>10), duplicate code, deep nesting (>4 levels), magic numbers/strings, and poor naming. For each smell found, explain the issue, show the problematic code, suggest a refactoring, and show the improved code. Prioritize by impact (high/medium/low) and ask if I want to apply any refactorings."
+}

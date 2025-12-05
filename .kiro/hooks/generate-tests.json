@@ -1,0 +1,7 @@
+{
+  "name": "Generate Tests",
+  "description": "Generate unit tests for the current file",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Generate comprehensive unit tests for the currently open file. Analyze the code structure, identify testable functions/classes, and create test cases using the appropriate framework (Jest for JS/TS, pytest for Python, JUnit for Java). Include happy path tests, edge cases, error handling tests, and mock external dependencies. Create the test file with proper naming convention and show me the generated tests."
+}

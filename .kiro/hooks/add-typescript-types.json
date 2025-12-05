@@ -1,0 +1,12 @@
+{
+  "name": "Add TypeScript Types",
+  "description": "Convert JavaScript to TypeScript or improve existing types",
+  "enabled": true,
+  "trigger": {
+    "type": "manual"
+  },
+  "action": {
+    "type": "sendMessage",
+    "message": "Add or improve TypeScript types in the currently open file:\n\n1. If JavaScript file:\n   - Convert to TypeScript\n   - Add proper type annotations\n   - Create interfaces for objects\n   - Add return types to functions\n   - Handle any types properly\n\n2. If TypeScript file:\n   - Replace 'any' with proper types\n   - Add missing type annotations\n   - Create reusable type definitions\n   - Add generics where appropriate\n   - Improve type safety\n\n3. Create separate .d.ts file if needed\n\n4. Ensure strict mode compatibility\n\n5. Show before/after comparison"
+  }
+}

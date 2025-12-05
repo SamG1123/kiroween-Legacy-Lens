@@ -1,0 +1,76 @@
+{
+  "hooks": [
+    {
+      "id": "generate-tests",
+      "name": "Generate Tests",
+      "description": "Generate unit tests for the current file",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Generate comprehensive unit tests for the currently open file. Analyze the code structure, identify testable functions/classes, and create test cases using the appropriate framework (Jest for JS/TS, pytest for Python, JUnit for Java). Include happy path tests, edge cases, error handling tests, and mock external dependencies."
+    },
+    {
+      "id": "refactor-smell",
+      "name": "Refactor Code Smell",
+      "description": "Analyze and refactor code smells",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Analyze the currently open file for code smells (long functions, high complexity, duplicate code, deep nesting, magic numbers, poor naming). For each smell, explain the issue, show problematic code, suggest refactoring, and show improved code. Prioritize by impact."
+    },
+    {
+      "id": "modernize-code",
+      "name": "Modernize Legacy Code",
+      "description": "Suggest modern patterns and upgrades",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Analyze for modernization opportunities: callbacks → promises → async/await, var → let/const, ES5 → ES6+, outdated packages, deprecated APIs. Show before/after examples and estimate effort/impact."
+    },
+    {
+      "id": "explain-code",
+      "name": "Explain Complex Code",
+      "description": "Get clear explanation of code",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Explain the currently selected code or entire file. Provide high-level overview, break down complex logic step-by-step, explain algorithms and patterns, identify potential issues. Use simple language and add inline comments."
+    },
+    {
+      "id": "security-check",
+      "name": "Security Audit",
+      "description": "Check for security vulnerabilities",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Perform security audit: check for SQL injection, XSS, CSRF, auth issues, sensitive data exposure, hardcoded secrets, insecure dependencies. For each issue: severity, location, risk explanation, recommended fix, secure code example."
+    },
+    {
+      "id": "optimize-perf",
+      "name": "Optimize Performance",
+      "description": "Suggest performance improvements",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Analyze for performance optimization: inefficient algorithms, memory leaks, blocking operations, missing caching, redundant calculations. Show current impact, suggested optimization, expected improvement, code example. Prioritize by impact vs effort."
+    },
+    {
+      "id": "review-code",
+      "name": "Code Review",
+      "description": "Comprehensive code review",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Perform comprehensive code review: Code Quality (readability, naming, organization, DRY, SOLID), Best Practices (idioms, error handling, validation, logging), Potential Issues (bugs, race conditions, memory leaks), Suggestions (improvements, refactoring, performance, security). Rate each category (1-5 stars)."
+    },
+    {
+      "id": "add-types",
+      "name": "Add TypeScript Types",
+      "description": "Improve TypeScript type safety",
+      "enabled": true,
+      "trigger": "manual",
+      "action": "sendMessage",
+      "message": "Add or improve TypeScript types. If JS: convert to TS, add type annotations, create interfaces, add return types. If TS: replace 'any', add missing annotations, create reusable types, add generics. Show before/after comparison."
+    }
+  ]
+}

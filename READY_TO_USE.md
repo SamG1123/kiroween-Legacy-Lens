@@ -312,3 +312,36 @@ npm run dev
 Then visit: `http://localhost:3000/health`
 
 Happy coding! 🎉
+
+
+---
+
+## 🪝 Bonus: Kiro Hooks
+
+I've created **10 AI-powered hooks** to automate your workflow!
+
+### 🎯 Manual Hooks (Click to Run)
+1. **Generate Tests** - Auto-generate unit tests for any file
+2. **Refactor Code Smell** - Identify and fix code quality issues
+3. **Modernize Legacy Code** - Upgrade to modern patterns
+4. **Explain Complex Code** - Get clear explanations
+5. **Security Audit** - Find security vulnerabilities
+6. **Optimize Performance** - Improve code performance
+7. **Code Review** - Comprehensive code review
+8. **Add TypeScript Types** - Improve type safety
+
+### ⚡ Auto Hooks (Disabled by Default)
+9. **Auto-Document on Save** - Update docs when you save
+10. **Update README on Feature** - Keep README current
+
+**Location**: `.kiro/hooks/`
+
+**Full Guide**: See `KIRO_HOOKS_GUIDE.md` for complete documentation!
+
+**How to Use**:
+1. Open Kiro sidebar → Agent Hooks
+2. Click any hook to run
+3. Review AI suggestions
+4. Apply changes
+
+These hooks work with your Groq AI to automate repetitive tasks and maintain code quality!

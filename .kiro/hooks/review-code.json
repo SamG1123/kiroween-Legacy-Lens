@@ -1,0 +1,7 @@
+{
+  "name": "Code Review",
+  "description": "Perform a comprehensive code review",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Perform a comprehensive code review on the currently open file. Review: Code Quality (readability, clarity, naming conventions, code organization, DRY principle, SOLID principles), Best Practices (language-specific idioms, error handling, input validation, logging, comments and documentation), Potential Issues (bugs or edge cases, race conditions, memory leaks, type safety), and Suggestions (improvements, refactoring opportunities, performance optimizations, security concerns). Rate each category (1-5 stars) and provide actionable feedback."
+}

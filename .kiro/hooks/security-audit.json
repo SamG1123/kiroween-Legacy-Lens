@@ -1,0 +1,12 @@
+{
+  "name": "Security Audit",
+  "description": "Check code for security vulnerabilities",
+  "enabled": true,
+  "trigger": {
+    "type": "manual"
+  },
+  "action": {
+    "type": "sendMessage",
+    "message": "Perform a security audit on the currently open file:\n\n1. Check for common vulnerabilities:\n   - SQL injection\n   - XSS (Cross-Site Scripting)\n   - CSRF (Cross-Site Request Forgery)\n   - Authentication/Authorization issues\n   - Sensitive data exposure\n   - Insecure dependencies\n   - Hardcoded secrets\n   - Unsafe deserialization\n   - Path traversal\n\n2. For each issue found:\n   - Severity (Critical/High/Medium/Low)\n   - Location in code\n   - Explanation of the risk\n   - Recommended fix\n   - Example of secure code\n\n3. Suggest security best practices\n\n4. Check if dependencies have known vulnerabilities"
+  }
+}

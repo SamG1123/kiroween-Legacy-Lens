@@ -1,0 +1,7 @@
+{
+  "name": "Optimize Performance",
+  "description": "Analyze and suggest performance improvements",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Analyze the currently open file for performance optimization opportunities. Identify: inefficient algorithms (O(n²) → O(n log n)), unnecessary loops, memory leaks, blocking operations, missing caching, redundant calculations, and large bundle sizes. For each issue, show current performance impact, suggested optimization, expected improvement, and code example. Suggest memoization opportunities, lazy loading, code splitting, database query optimization, and async/parallel processing. Prioritize by impact vs effort."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Modernize Legacy Code",
+  "description": "Suggest modern patterns and upgrades for legacy code",
+  "trigger": "manual",
+  "action": "sendMessage",
+  "message": "Analyze the currently open file for modernization opportunities. Identify legacy patterns like callbacks → promises → async/await, var → let/const, function → arrow functions, old APIs → modern equivalents, and ES5 → ES6+ features. Check for outdated packages, deprecated APIs, and security vulnerabilities. Suggest improvements with modern syntax, better patterns, performance optimizations, and type safety. Show before/after examples and estimate effort and impact for each suggestion."
+}

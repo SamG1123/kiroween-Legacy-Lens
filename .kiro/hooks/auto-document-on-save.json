@@ -1,0 +1,13 @@
+{
+  "name": "Auto-Document on Save",
+  "description": "Automatically generate documentation when you save a source file",
+  "enabled": false,
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "**/*.{ts,js,py,java,go,rb,php}"
+  },
+  "action": {
+    "type": "sendMessage",
+    "message": "The file {{filePath}} was just saved. Please:\n1. Analyze the code changes\n2. Generate or update JSDoc/docstring comments for any new or modified functions\n3. Update the README if this adds new features\n4. Keep it concise - only document what changed"
+  }
+}

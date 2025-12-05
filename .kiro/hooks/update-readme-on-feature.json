@@ -1,0 +1,12 @@
+{
+  "name": "Update README on Feature",
+  "description": "Automatically update README when new features are added",
+  "enabled": false,
+  "trigger": {
+    "type": "onAgentComplete"
+  },
+  "action": {
+    "type": "sendMessage",
+    "message": "A task was just completed. Please:\n\n1. Review what was implemented\n2. Check if README.md needs updates:\n   - New features to document\n   - New API endpoints\n   - New configuration options\n   - New dependencies\n   - Updated installation steps\n\n3. If updates are needed:\n   - Update the relevant sections\n   - Keep the existing style\n   - Add examples if applicable\n   - Update table of contents if present\n\n4. Show me the proposed changes before applying"
+  }
+}
