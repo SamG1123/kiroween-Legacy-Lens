@@ -10,6 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:redis": "ts-node src/scripts/test-redis.ts",
+    "test:db": "ts-node src/scripts/test-database.ts",
+    "test:groq": "ts-node src/scripts/test-groq.ts",
     "check": "ts-node src/scripts/check-setup.ts",
     "migrate:up": "ts-node src/database/migrate.ts up",
     "migrate:down": "ts-node src/database/migrate.ts down"
