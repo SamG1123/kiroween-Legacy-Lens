@@ -29,12 +29,16 @@ import { RefactoringSuggestion } from '../refactoring/types';
 import { TestGenerationOrchestrator } from '../test-generator/orchestrators/TestGenerationOrchestrator';
 import { AITestGenerationClient } from '../test-generator/ai/AITestGenerationClient';
 import { FunctionInfo, ClassInfo, TestFramework, CodeStyle } from '../test-generator/types';
+import aiRoutes from './ai-routes';
 
 const app = express();
 
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Mount AI routes
+app.use('/api/ai', aiRoutes);
 
 // Initialize services
 const uploadHandler = new UploadHandler();
